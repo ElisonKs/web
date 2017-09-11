@@ -1,0 +1,13 @@
+.coluna-acao {
+	width: 80px;
+}
+.bordered {border:1px solid black}
+
+.card {
+    height:220px;
+    overflow:auto
+}
+    
+.card img {
+    height:150px
+}

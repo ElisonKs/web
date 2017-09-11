@@ -1,0 +1,138 @@
+<html lang="pt-BR">
+<head>
+	<link rel="shortcut icon" href="<?php echo base_url('assets/images/favicon.ico')?>">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<title>Mundial Futebol | Painel Administrativo</title>
+	
+	<link href="<?php echo base_url('assets/css/bootstrap.css')?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/plugins/metisMenu/metisMenu.min.css')?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/plugins/timeline.css')?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/plugins/dataTables.bootstrap.css')?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/plugins/social-buttons.css')?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/sb-admin-2.css')?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/font-awesome-4.3.0/css/font-awesome.min.css')?>" rel="stylesheet" type="text/css">
+	<link href="<?php echo base_url('assets/css/dashboard.css')?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/plugins/fileinput/fileinput.css')?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/plugins/file_upload/jquery.fileupload.css')?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/plugins/file_upload/jquery.fileupload-ui.css')?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/bootstrap-datetimepicker.min.css')?>" rel="stylesheet" media="screen">
+
+	</head>
+<body>
+
+
+	<div id="wrapper">
+		<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="<?php echo site_url('')?>">Mundial Futebol | {BUS_NOME_EMP}</a>
+			</div>
+		
+			
+		
+				<!-- /.sidebar-collapse -->
+			</div>
+		</nav>
+	</div>
+	
+	
+	<script src="<?php echo base_url('assets/js/jquery-1.11.0.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/jquery.maskedinput.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/jquery.fileupload.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/jquery.fileupload-process.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/jquery.fileupload-image.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/jquery.fileupload-validate.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/jquery.fileupload-ui.js')?>"></script>	
+    <script src="<?php echo base_url('assets/js/plugins/fileinput/fileinput.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/plugins/fileinput/fileinput.js')?>"></script>	
+	<script src="<?php echo base_url('assets/js/bootstrap.min.js')?>"></script>		
+	<script src="<?php echo base_url('assets/js/plugins/metisMenu/metisMenu.min.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/sb-admin-2.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/jasny-bootstrap.min.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/plugins/dataTables/jquery.dataTables.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/plugins/dataTables/dataTables.bootstrap.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/jquery.alphanumeric.js')?>"></script>
+	<script src="<?php echo base_url('assets/js/jquery.maskMoney.js')?>"></script>
+	
+	<script>
+	    $(document).ready(function() {
+	        $('#tb_segmento').dataTable({"order": [[ 1, "asc" ]]});
+            $('#tb_plano').dataTable({"order": [[ 1, "asc" ]]});
+	        $('#tb_cambio').dataTable({"order": [[ 1, "asc" ]]});
+	        $('#tb_cargo').dataTable({"order": [[ 1, "asc" ]]});
+	        $('#tb_rede_social').dataTable({"order": [[ 1, "asc" ]]});
+	        $('#tb_forma_pagamento').dataTable({"order": [[ 1, "asc" ]]});
+	        $('#tb_responsavel').dataTable({"order": [[ 1, "asc" ]]});
+	        $('#tb_empresa').dataTable({"order": [[ 1, "asc" ]]});
+	        $('#tb_empresa_segmento').dataTable({"order": [[ 1, "asc" ]]});
+	        $('#tb_perfil').dataTable({"order": [[ 0, "asc" ]]});
+	        $('#tb_usuario').dataTable({"order": [[ 0, "asc" ]]});
+	        $('#tb_telefone').dataTable({"order": [[ 0, "asc" ]]});
+	        $('#tb_tamanho').dataTable({"order": [[ 0, "asc" ]]});
+	        $('#tb_adicional').dataTable({"order": [[ 0, "asc" ]]});
+	        $('#tb_categoria').dataTable({"order": [[ 0, "asc" ]]});
+	        $('#tb_horario').dataTable({"order": [[ 0, "asc" ]]});
+	        $('#tb_empresa_forma_pagamento').dataTable({"order": [[ 0, "asc" ]]});
+	        $('#tb_empresa_rede_social').dataTable({"order": [[ 0, "asc" ]]});
+	        $('#tb_area_entrega').dataTable({"order": [[ 0, "asc" ]]});
+	        $('#tb_area_nao_entrega').dataTable({"order": [[ 0, "asc" ]]});
+	        $('#tb_categoria_tamanho').dataTable({"order": [[ 0, "asc" ]]});
+	        $('#tb_categoria_adicional').dataTable({"order": [[ 0, "asc" ]]});
+	        $('#tb_produto').dataTable({"order": [[ 0, "asc" ]]});
+	        $('#tb_produto_adicional').dataTable({"order": [[ 0, "asc" ]]});
+	        $('#tb_produto_tamanho').dataTable({"order": [[ 0, "asc" ]]});
+	        $('#tb_produto_produto').dataTable({"order": [[ 0, "asc" ]]});
+	        $('#tb_entregador').dataTable({"order": [[ 0, "asc" ]]});
+            $('input.numero').numeric();
+	        $("input.dinheiro").maskMoney({showSymbol:true, symbol:"R$ ", decimal:",", thousands:"."});
+		});
+	</script>
+    <script type="text/javascript">
+//		function somPedido() {
+//			var som = document.getElementById("som");
+//			som.play();
+//	  	}
+//
+//	  	var quantidadePedidoAnterior = 0;
+//	  	var quantidadePedidoAtual    = 0;
+//
+//		function verificarPedidos() {
+//	  		$.ajax({
+//	  		  url: '{URL_PEDIDO}',
+//	  		  dataType : "json",
+//	  		  success: function(data) {
+//	  			  if (data != "") {
+//	  				 quantidadePedidoAtual = data.quantidade;
+//	  				 $('#badge_pedidos').html(quantidadePedidoAtual);
+//
+//	  				 if (quantidadePedidoAtual > 0) {
+//	  					somPedido();
+//	  				 }
+//
+//	  				 quantidadePedidoAnterior = quantidadePedidoAtual;
+//	  			  }
+//	  			}
+//	  		});
+//	  	}
+//
+//		window.onload = function(){
+//			verificarPedidos();
+//			atualizarPedidos();
+//		}
+//
+//  		window.setInterval('verificarPedidos()', 10000);
+  </script>	
+  
+
+</body>		
+</html>

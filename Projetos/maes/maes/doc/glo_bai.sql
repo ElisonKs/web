@@ -1,0 +1,98 @@
+/*
+-- Query: SELECT id_bairro AS glo_id_bai,
+       bairro AS glo_nome_bai,
+       id_cidade AS glo_glocid_bai
+FROM correios.cepbr_bairro
+WHERE id_cidade IN (5389, 759)
+-- Date: 2016-09-03 10:00
+*/
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (568,'Alto da Aliança',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (569,'Alto da Maravilha',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (570,'Alto do Alencar',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (571,'Alto do Cruzeiro',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (572,'Argemiro',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (573,'Cajueiro',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (574,'Castelo Branco',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (575,'Centenário',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (576,'Centro',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (577,'Coréia',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (578,'Country Club',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (579,'Dom José Rodrigues',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (580,'Dom Tomaz',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (581,'Itaberaba',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (582,'Jardim Novo Encontro',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (583,'Jardim São Paulo',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (584,'Jardim Vitória',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (585,'João Paulo II',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (586,'João XXIII',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (587,'Juazeiro Velho',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (588,'Lomanto Júnior',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (589,'Malhada da Areia',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (590,'Maringá',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (591,'Matatu',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (592,'Nossa Senhora da Penha',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (593,'Padre Vicente',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (594,'Pedra do Lord',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (595,'Piranga',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (596,'Piranga II',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (597,'Quide',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (599,'Santo Antônio',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (600,'São Geraldo',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (601,'Tabuleiro',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (602,'Tancredo Neves',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (603,'Vila Tiradentes',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (49144,'Expedito de Almeida Nascimento',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (50156,'Parque Centenário',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (50157,'Jardim Universitário',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (50630,'Antonio Guilhermino',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (50631,'Jardim Flórida',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (50632,'Palmares',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (50846,'Santa Maria Goretti',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (50847,'Pedro Raimundo',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (50898,'Jardim Primavera',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (59607,'Área Rural de Juazeiro',759);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7267,'São José',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7268,'Antônio Cassimiro',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7269,'Areia Branca',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7270,'Atrás da Banca',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7271,'Caminho do Sol',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7273,'Centro',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7274,'Cidade Universitária',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7275,'COHAB Massangano',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7276,'COHAB VI',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7277,'Colônia Imperial',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7278,'Cosme e Damião',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7279,'Distrito Industrial',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7280,'Dom Avelar',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7281,'Gercino Coelho',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7282,'Henrique Leite',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7283,'Jardim Amazonas',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7284,'Jardim Maravilha',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7285,'Jardim São Paulo',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7286,'Jatobá',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7287,'João de Deus',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7288,'José e Maria',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7289,'km-2',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7290,'Loteamento Recife',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7291,'Maria Auxiliadora',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7292,'Ouro Preto',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7293,'Palhinhas',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7294,'Pedra do Bode',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7295,'Pedro Raimundo',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7296,'Portal da Cidade',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7297,'Rio Corrente',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7298,'São Gonçalo',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7300,'Topázio',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7301,'Vila Eduardo',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (7302,'Vila Mocó',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (35963,'Vale Grande Rio',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (35964,'Arco-íris',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (35966,'Dona Alexandrina',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (35967,'Fernando Idalino',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (35969,'Jardim Petrópolis',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (35975,'Pedra Linda',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (35976,'Rio Claro',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (35978,'Terra do Sul',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (35981,'Vila dos Ingás II',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (35982,'Vila Eulália',5389);
+INSERT INTO `glo_bai` (`glo_id_bai`,`glo_nome_bai`,`glo_glocid_bai`) VALUES (59861,'Área Rural de Petrolina',5389);
